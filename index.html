@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Captura de Cep</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="content">
+    <div id="form">
+      <nav class="nav_bar">
+        <h2>Search cep</h2>
+        <div class="logo">
+          <p>S</p>
+        </div>
+      </nav>
+      <div class="box-forms">
+        <div id="box-titles">
+          <h1>Sign Up</h1>
+          <p>Let's create your account, search info before.</p>
+        </div>
+        <form id="form-input">
+          <input type="text" name="endereco" id="endereco" placeholder="Your address" disabled>
+          <input type="text" name="bairro" id="bairro" placeholder="Neighborhood" disabled>
+          <input type="text" name="cep" id="cep" placeholder="Zip code *">
+          <div>
+            <input type="text" name="numero" id="number" placeholder="Number *">
+            <input type="text" name="uf" id="uf" placeholder="Uf" disabled>
+          </div>
+          
+          <button type="submit">Search</button>
+        </form>
+        <span>
+          <p>By an account you greats to the terms and conditions</p>
+        </span>
+      </div>
+    </div>
+    <div id="banner">
+      <img src="./assets/img/address.svg" />
+    </div>
+  </div>
+
+<script src="./scripts.js"></script>
+</body>
+</html>
